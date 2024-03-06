@@ -1,8 +1,7 @@
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import './App.css';
 import Home from './components/home'
-import Contact from './components/contact'
-import Request from './components/request'
+
 
 
 
@@ -19,8 +18,6 @@ function App() {
      <main>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="request" element={<Request />} />
       </Routes>
      </main>
     </BrowserRouter>
