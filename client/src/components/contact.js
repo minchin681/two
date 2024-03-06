@@ -6,7 +6,7 @@ function Contact() {
 
     return (
         <div>
-            <button className="the-buttons" onClick={butonclick}>
+            <button className="the-buttons">
                 click to api
             </button>
         </div>
