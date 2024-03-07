@@ -6,7 +6,7 @@ function Contact() {
 
     function butonclick(e) {
         e.preventDefault();
-        axios.get(`${baseUrl}/hello`)
+        axios.get(`${baseUrl}`)
     }
 
 
