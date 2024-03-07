@@ -29,8 +29,8 @@ function Home() {
             <div className="home">
                 <div className="services">
                     <div className="info">
-                        <div className="jumbo">ONE STOP LAUNDRY SERVICES</div>
-                        <div className='hub'>South berkeleys residential and commerical laundry services hub.</div>
+                        <div className="jumbo">LAUNDRY SERVICES</div>
+                        <div className='hub'>Berkeley residential and commerical laundry services hub.</div>
                         <div className="two-buttons">
                             <button className="left-button">Schedule</button>
                             <button className="right-button">Contact </button>
