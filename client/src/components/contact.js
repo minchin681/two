@@ -2,7 +2,7 @@ import axios from 'axios';
 
 function Contact() {
 
-    let baseUrl = "https://washingtown.azurewebsites.net";
+    let baseUrl = "https://washingtown.azurewebsites.net/hello";
 
     function butonclick(e) {
         e.preventDefault();
