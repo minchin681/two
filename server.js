@@ -23,7 +23,7 @@ app.post("/hello", (req, res) => {
 });
 
 app.get("/data", (req, res) => {
-  res.json(testing)
+  res.json({testing:"its testing"})
 })
 
 
