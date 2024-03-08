@@ -7,7 +7,7 @@ function Contact() {
     function butonclick(e) {
         axios.get(`${baseUrl}/data`)
         .then(response => {
-            console.log(response.data);
+            console.log(response.json());
         })
         .catch(err => {
             console.error(err);
