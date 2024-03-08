@@ -5,11 +5,14 @@ function Contact() {
     let baseUrl = "https://washingtown.azurewebsites.net";
 
     function butonclick(e) {
-        e.preventDefault();
-        axios.post(`${baseUrl}/hello`)
+        axios.get(`${baseUrl}/data`)
+        .then(response => {
+            console.log(response);
+        })
+        .catch(err => {
+            console.error(err);
+        });
     }
-
-
 
 
     return (
