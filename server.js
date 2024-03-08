@@ -15,7 +15,7 @@ app.get("*", (req, res) => {
 });
 
 
-app.get("/hello", (req, res) => {
+app.post("/hello", (req, res) => {
   console.log("hello from server! hello!!")
 });
 
